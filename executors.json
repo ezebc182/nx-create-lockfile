@@ -1,0 +1,24 @@
+{
+  "executors": {
+    "installer": {
+      "implementation": "./src/executors/installer/executor",
+      "schema": "./src/executors/installer/schema.json",
+      "description": "installer executor"
+    },
+    "echo": {
+      "implementation": "./src/executors/echo/executor",
+      "schema": "./src/executors/echo/schema.json",
+      "description": "echo executor"
+    },
+    "builder": {
+      "implementation": "./src/executors/builder/executor",
+      "schema": "./src/executors/builder/schema.json",
+      "description": "builder executor"
+    },
+    "builder2": {
+      "implementation": "./src/executors/builder2/executor",
+      "schema": "./src/executors/builder2/schema.json",
+      "description": "builder2 executor"
+    }
+  }
+}

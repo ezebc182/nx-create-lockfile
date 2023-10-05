@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "version": 2,
+  "title": "Builder2 executor",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "outputPath": "string"
+  },
+  "required": []
+}

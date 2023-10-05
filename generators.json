@@ -1,0 +1,9 @@
+{
+  "generators": {
+    "installer": {
+      "factory": "./src/generators/installer/generator",
+      "schema": "./src/generators/installer/schema.json",
+      "description": "installer generator"
+    }
+  }
+}
